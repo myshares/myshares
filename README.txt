@@ -19,11 +19,30 @@ Asset Issuance FEE in NXT is     : 1000 NXT (More expensive compare to MyShare)
 Total MyShare coin supply : 2000000000 MYS 
 Total NXT coin supply     : 1000000000 NXT
 
-All of the coin will be supplied to all first attempt buyer at https://bitcointalk.org/ and https://cryptocurrencytalk.com please stay tuned for more info by watching (press the watch button) top right at this github repo.
+All of the coin will be supplied to all first attempt buyer at https://bitcointalk.org/ and https://cryptocurrencytalk.com ,please stay tuned for more info by watching (press the watch button) top right at this github repo.
 
-The exchange is in progress.  
----------------------------------------------------------------------------------------------------------------
-MyShare wallet supports English and Chinese language.
+-------------------------------------------------------------------------------------------------------------------------------
+Online wallet: 
+English : http://www.myshares.club/
+Chinese : http://ch.myshares.club/
+
+Test Wallet: 
+English : http://test.myshares.club/
+Chinese : http://test.ch.myshares.club/
+
+Alternate link online wallet:
+http://www.nxlcrypto.life/
+http://ch.nxlcrypto.life/
+
+Test wallet: 
+http://test.nxlcrypto.life/
+http://test.ch.nxlcrypto.life/
+
+Or alternatively you can download the wallet at the release tab of this repo. MyShare desktop wallet also supports English and Chinese language.
+
+-------------------------------------------------------------------------------------------------------------------------------
+The exchange is in progress, please stay tuned for more info by watching (press the watch button) top right at this github repo.
+-------------------------------------------------------------------------------------------------------------------------------
 
 Running the MyShare software:
 
