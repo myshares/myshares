@@ -16,6 +16,8 @@ All transaction FEE in NXT        : 1 NXT (More expensive compare to MyShare)
 Asset Issuance FEE in MyShare is : 300 MYS 
 Asset Issuance FEE in NXT is     : 1000 NXT (More expensive compare to MyShare)
 
+The first asset issuance is ARAGON with asset id: 17014571236887534914
+
 Total MyShare coin supply : 2000000000 MYS 
 Total NXT coin supply     : 1000000000 NXT
 
@@ -24,6 +26,7 @@ NXT : 1000 NXT (effective balance)
 MyShare : 1 MYS (effective balance)
 
 Complete transaction validation is 24hours to get effective balance for doing forging.
+In order to do forging you need a public IP and set it up at nxt.myAddress config at conf/nxt-default.properties.
 
 All of the coin will be supplied to all first attempt buyer at https://bitcointalk.org/ and https://cryptocurrencytalk.com ,please stay tuned for more info by watching (press the watch button) top right at this github repo.
 
