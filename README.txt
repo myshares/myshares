@@ -1,4 +1,4 @@
---------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
 MyShare is a cryptocurrency based on PoS (Proof Of Stake) algorithm. 
 
 MyShare aimed to free user from expensive FEE for all transaction as low as 0.1 MYS.
@@ -21,7 +21,7 @@ Total NXT coin supply     : 1000000000 NXT
 
 All of the coin will be supplied to all first attempt buyer at https://bitcointalk.org/ and https://cryptocurrencytalk.com ,please stay tuned for more info by watching (press the watch button) top right at this github repo.
 
--------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
 Online wallet: 
 English : http://www.myshares.club/
 Chinese : http://ch.myshares.club/
@@ -40,9 +40,9 @@ http://test.ch.nxlcrypto.life/
 
 Or alternatively you can download the wallet at the release tab of this repo. MyShare desktop wallet also supports English and Chinese language.
 
--------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
 The exchange is in progress, please stay tuned for more info by watching (press the watch button) top right at this github repo.
--------------------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
 
 Running the MyShare software:
 
@@ -74,7 +74,7 @@ when upgrading the software, you can safely overwrite nxt-default.properties
 with the updated file from the new package, while your customizations remain
 safe in the nxt.properties file.
 
------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
 Enabling Chinese language: 
 at nxt-default.properties search for chinese language and remote the '#' before nxt.apiResourceBase=html/ui_zh
 and put '#' before nxt.apiResourceBase=html/ui
@@ -87,7 +87,7 @@ It should be like below:
 
 #for Chinese language 
 nxt.apiResourceBase=html/ui_zh
------------------------------------------------------------------------------------------------------------------
+------------------------------------------------------------------------------------------------------
 
 Technical details:
 
