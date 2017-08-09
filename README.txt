@@ -1,15 +1,15 @@
-Running the Bils software:
+Running the MyShare software:
 
 Dependencies: Java 7 or later needs to be installed first. Only the Oracle JVM
 has been tested and supported.
 
-There is no installation needed. Unpack the nxl-client.zip package and open a
-shell in the resulting nxl directory. Execute the run.sh script if using Linux,
+There is no installation needed. Unpack the mys-client.zip package and open a
+shell in the resulting mys directory. Execute the run.sh script if using Linux,
 or run.bat if using Windows. This will start a java server process, which will
 begin logging its activities to the console. The initialization takes a few
-seconds. When it is ready, you should see the message "Bils server 1.0.0 started
+seconds. When it is ready, you should see the message "MyShare server 1.0.0 started
 successfully". Open a browser, without stopping the java process, and go to
-http://localhost:14725 , where the Bils UI should now be available. To stop the
+http://localhost:14725 , where the MyShare UI should now be available. To stop the
 application, type Ctrl-C inside the console window.
 
 
@@ -31,7 +31,7 @@ safe in the nxt.properties file.
 
 Technical details:
 
-The Bils software is a client-server application. It consists of a java server
+The MyShare software is a client-server application. It consists of a java server
 process, the one started by the run.sh script, and a javascript user interface
 run in a browser. To run a node, forge, update the blockchain, interact with
 peers, only the java process needs to be running, so you could logout and close
@@ -45,16 +45,16 @@ connections, you should setup port forwarding. The server will still work though
 even if only outgoing connections are allowed, so opening this port is optional.
 
 The user interface is available on port 14725. This port also accepts http API
-requests which other Bils client applications could use.
+requests which other MyShare client applications could use.
 
 The blockchain is stored on disk using the H2 embedded database, inside the
-nxl_db directory. When upgrading, you should not delete the old nxl_db
+mys_db directory. When upgrading, you should not delete the old mys_db
 directory, upgrades always include code that can upgrade old database files to
 the new version whenever needed. But there is no harm if you do delete the
-nxl_db, except that it will take some extra time to download the blockchain
+mys_db, except that it will take some extra time to download the blockchain
 from scratch.
 
-The default Bils client does not store any wallet-type file on disk. Unlike
+The default MyShare client does not store any wallet-type file on disk. Unlike
 bitcoin, your password is the only thing you need to get access to your account,
 and is the only piece of data you need to backup or remember. This also means
 that anybody can get access to your account with only you password - so make
@@ -62,8 +62,8 @@ sure it is long and random. A weak password will result in your funds being
 stolen immediately.
 
 The java process logs its activities and error messages to the standard output
-which you see in the console window, but also to a file nxl.log, which gets
-overwritten at restart. In case of an error, the nxl.log file may contain
+which you see in the console window, but also to a file mys.log, which gets
+overwritten at restart. In case of an error, the mys.log file may contain
 helpful information, so include its contents when submitting a bug report.
 
 In addition to the default user interface at http://localhost:14725 , the
@@ -87,6 +87,6 @@ Compiling:
 
 The source is included in the src subdirectory. To compile it on linux, just
 run the enclosed compile.sh script. This will compile all java classes and
-package them in an nxl.jar file, replacing the existing one.
+package them in an mys.jar file, replacing the existing one.
 
 
