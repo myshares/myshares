@@ -23,6 +23,8 @@ Minimal Forging :
 NXT : 1000 NXT (effective balance)
 MyShare : 1 MYS (effective balance)
 
+Complete transaction validation is 24hours to get effective balance for doing forging.
+
 All of the coin will be supplied to all first attempt buyer at https://bitcointalk.org/ and https://cryptocurrencytalk.com ,please stay tuned for more info by watching (press the watch button) top right at this github repo.
 
 -------------------------------------------------------------------------------------------------------------------------------
