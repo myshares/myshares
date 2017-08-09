@@ -47,7 +47,7 @@ Test wallet:
 http://test.nxlcrypto.life/
 http://test.ch.nxlcrypto.life/
 
-Use this passphrase/password to login into the account: 'really dot erase awake past blind waste weave human accident reflect ring' (without quote)
+Use this passphrase/password to login into the test account: 'really dot erase awake past blind waste weave human accident reflect ring' (without quote)
 
 WARNING: Use IT AT YOUR OWN RISK, DO NOT USE YOUR REAL ACCOUNT INTO TEST ACCOUNT!
 
