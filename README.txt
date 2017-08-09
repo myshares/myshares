@@ -42,6 +42,10 @@ Test wallet:
 http://test.nxlcrypto.life/
 http://test.ch.nxlcrypto.life/
 
+Use this passphrase/password to login into the account: 'really dot erase awake past blind waste weave human accident reflect ring' (without quote)
+
+WARNING: Use IT AT YOUR OWN RISK, DO NOT USE YOUR REAL ACCOUNT INTO TEST ACCOUNT!
+
 Or alternatively you can download the wallet at the release tab of this repo. MyShare desktop wallet also supports English and Chinese language.
 
 -------------------------------------------------------------------------------------------------------------------------------
