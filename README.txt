@@ -1,3 +1,30 @@
+--------------------------------------------------------------------------------------------------------------
+MyShare is a cryptocurrency based on PoS (Proof Of Stake) algorithm. 
+
+MyShare aimed to free user from expensive FEE for all transaction as low as 0.1 MYS.
+
+What is PoS? 
+https://youtu.be/NqgzF63yNcU
+https://blockgeeks.com/guides/proof-of-work-vs-proof-of-stake/
+
+The different algorithms used allow MyShare users to mine with exponentially less computing power. MyShare uses Proof of Stake (PoS), a concept initially pioneered by Peercoin, rather than Proof of Work, used by Bitcoin and other coins.
+ 
+MyShare VS NXT 
+All transaction FEE in MyShare is : 0.1 MYS
+All transaction FEE in NXT        : 1 NXT (More expensive compare to MyShare) 
+
+Asset Issuance FEE in MyShare is : 300 MYS 
+Asset Issuance FEE in NXT is     : 1000 NXT (More expensive compare to MyShare)
+
+Total MyShare coin supply : 2000000000 MYS 
+Total NXT coin supply     : 1000000000 NXT
+
+All of the coin will be supplied to all first attempt buyer at https://bitcointalk.org/ and https://cryptocurrencytalk.com please stay tuned for more info by watching (press the watch button) top right at this github repo.
+
+The exchange is in progress.  
+---------------------------------------------------------------------------------------------------------------
+MyShare wallet supports English and Chinese language.
+
 Running the MyShare software:
 
 Dependencies: Java 7 or later needs to be installed first. Only the Oracle JVM
@@ -28,6 +55,20 @@ when upgrading the software, you can safely overwrite nxt-default.properties
 with the updated file from the new package, while your customizations remain
 safe in the nxt.properties file.
 
+-----------------------------------------------------------------------------------------------------------------
+Enabling Chinese language: 
+at nxt-default.properties search for chinese language and remote the '#' before nxt.apiResourceBase=html/ui_zh
+and put '#' before nxt.apiResourceBase=html/ui
+
+It should be like below: 
+
+# Directory with html and javascript files for the new client UI, and admin tools utilizing
+# the http/json API.
+#nxt.apiResourceBase=html/ui
+
+#for Chinese language 
+nxt.apiResourceBase=html/ui_zh
+-----------------------------------------------------------------------------------------------------------------
 
 Technical details:
 
@@ -48,10 +89,10 @@ The user interface is available on port 14725. This port also accepts http API
 requests which other MyShare client applications could use.
 
 The blockchain is stored on disk using the H2 embedded database, inside the
-mys_db directory. When upgrading, you should not delete the old mys_db
+nxl_db directory. When upgrading, you should not delete the old nxl_db
 directory, upgrades always include code that can upgrade old database files to
 the new version whenever needed. But there is no harm if you do delete the
-mys_db, except that it will take some extra time to download the blockchain
+nxl_db, except that it will take some extra time to download the blockchain
 from scratch.
 
 The default MyShare client does not store any wallet-type file on disk. Unlike
@@ -87,6 +128,6 @@ Compiling:
 
 The source is included in the src subdirectory. To compile it on linux, just
 run the enclosed compile.sh script. This will compile all java classes and
-package them in an mys.jar file, replacing the existing one.
+package them in an nxl.jar file, replacing the existing one.
 
 
