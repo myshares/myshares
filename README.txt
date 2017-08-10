@@ -1,29 +1,29 @@
 -----------------------------------------------------------------------------
-MyShare is a cryptocurrency based on PoS (Proof Of Stake) algorithm. 
+MyShares is a cryptocurrency based on PoS (Proof Of Stake) algorithm. 
 
-MyShare aimed to free user from expensive FEE for all transaction as low as 0.1 MYS.
+MyShares aimed to free user from expensive FEE for all transaction as low as 0.1 MYS.
 
 What is PoS? 
 https://youtu.be/NqgzF63yNcU
 https://blockgeeks.com/guides/proof-of-work-vs-proof-of-stake/
 
-The different algorithms used allow MyShare users to mine with exponentially less computing power. MyShare uses Proof of Stake (PoS), a concept initially pioneered by Peercoin, rather than Proof of Work, used by Bitcoin and other coins.
+The different algorithms used allow MyShares users to mine with exponentially less computing power. MyShares uses Proof of Stake (PoS), a concept initially pioneered by Peercoin, rather than Proof of Work, used by Bitcoin and other coins.
  
-MyShare VS NXT 
-All transaction FEE in MyShare is : 0.1 MYS
-All transaction FEE in NXT        : 1 NXT (More expensive compare to MyShare) 
+MyShares VS NXT 
+All transaction FEE in MyShares is : 0.1 MYS
+All transaction FEE in NXT        : 1 NXT (More expensive compare to MyShares) 
 
-Asset Issuance FEE in MyShare is : 300 MYS 
-Asset Issuance FEE in NXT is     : 1000 NXT (More expensive compare to MyShare)
+Asset Issuance FEE in MyShares is : 300 MYS 
+Asset Issuance FEE in NXT is     : 1000 NXT (More expensive compare to MyShares)
 
 The first asset issuance is ARAGON with asset id: 17014571236887534914
 
-Total MyShare coin supply : 2000000000 MYS 
+Total MyShares coin supply : 2000000000 MYS 
 Total NXT coin supply     : 1000000000 NXT
 
 Minimal Forging : 
 NXT : 1000 NXT (effective balance)
-MyShare : 1 MYS (effective balance)
+MyShares : 1 MYS (effective balance)
 
 Complete transaction validation is 24hours to get effective balance for doing forging.
 In order to do forging you need a public IP and set it up at nxt.myAddress config at conf/nxt-default.properties.
@@ -51,13 +51,13 @@ Use this passphrase/password to login into the test account: 'really dot erase a
 
 WARNING: Use IT AT YOUR OWN RISK, DO NOT USE YOUR REAL ACCOUNT INTO TEST ACCOUNT!
 
-Or alternatively you can download the wallet at the release tab of this repo. MyShare desktop wallet also supports English and Chinese language.
+Or alternatively you can download the wallet at the release tab of this repo. MyShares desktop wallet also supports English and Chinese language.
 
 -----------------------------------------------------------------------------
 The exchange is in progress, please stay tuned for more info by watching (press the watch button) top right at this github repo.
 -----------------------------------------------------------------------------
 
-Running the MyShare software:
+Running the MyShares software:
 
 Dependencies: Java 7 or later needs to be installed first. Only the Oracle JVM
 has been tested and supported.
@@ -66,9 +66,9 @@ There is no installation needed. Unpack the mys-client.zip package and open a
 shell in the resulting mys directory. Execute the run.sh script if using Linux,
 or run.bat if using Windows. This will start a java server process, which will
 begin logging its activities to the console. The initialization takes a few
-seconds. When it is ready, you should see the message "MyShare server 1.0.0 started
+seconds. When it is ready, you should see the message "MyShares server 1.0.0 started
 successfully". Open a browser, without stopping the java process, and go to
-http://localhost:14725 , where the MyShare UI should now be available. To stop the
+http://localhost:14725 , where the MyShares UI should now be available. To stop the
 application, type Ctrl-C inside the console window.
 
 
@@ -104,7 +104,7 @@ nxt.apiResourceBase=html/ui_zh
 
 Technical details:
 
-The MyShare software is a client-server application. It consists of a java server
+The MyShares software is a client-server application. It consists of a java server
 process, the one started by the run.sh script, and a javascript user interface
 run in a browser. To run a node, forge, update the blockchain, interact with
 peers, only the java process needs to be running, so you could logout and close
@@ -118,7 +118,7 @@ connections, you should setup port forwarding. The server will still work though
 even if only outgoing connections are allowed, so opening this port is optional.
 
 The user interface is available on port 14725. This port also accepts http API
-requests which other MyShare client applications could use.
+requests which other MyShares client applications could use.
 
 The blockchain is stored on disk using the H2 embedded database, inside the
 nxl_db directory. When upgrading, you should not delete the old nxl_db
@@ -127,7 +127,7 @@ the new version whenever needed. But there is no harm if you do delete the
 nxl_db, except that it will take some extra time to download the blockchain
 from scratch.
 
-The default MyShare client does not store any wallet-type file on disk. Unlike
+The default MyShares client does not store any wallet-type file on disk. Unlike
 bitcoin, your password is the only thing you need to get access to your account,
 and is the only piece of data you need to backup or remember. This also means
 that anybody can get access to your account with only you password - so make
